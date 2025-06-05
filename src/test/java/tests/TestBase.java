@@ -15,21 +15,13 @@ import java.util.Map;
 public class TestBase {
     @BeforeAll
     public static void setUp() {
-//        Configuration.browserSize = System.getProperty("browserResolution", "1920x1080");
- //       Configuration.browserSize = System.getProperty("browserResolution", "2560×1440");
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = System.getProperty("browserResolution", "1920x1080");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
-        Configuration.baseUrl = System.getProperty("base","https://hostkey.ru/");
+        Configuration.baseUrl = System.getProperty("base","https://hostkey.ru");
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 15000;
         System.setProperty("selenide.cdp", "122");
-//        Configuration.remote = String.format(
-//                "https://%s:%s@%s/wd/hub",
-//                System.getProperty("selenoidUserLogin", "user1"),
-//                System.getProperty("selenoidUserPassword", "1234"),
-//                System.getProperty("selenoidUrl", "selenoid.autotests.cloud")
-//        );
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
