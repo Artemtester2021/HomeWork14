@@ -21,6 +21,7 @@ public class TestBase {
         Configuration.baseUrl = System.getProperty("base","https://hostkey.ru");
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 15000;
+        System.setProperty("selenide.cdp", "122");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
