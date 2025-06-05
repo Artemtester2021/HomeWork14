@@ -17,7 +17,7 @@ public class TestBase {
     public static void setUp() {
         Configuration.browserSize = System.getProperty("browserResolution", "1920x1080");
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
+        Configuration.browserVersion = System.getProperty("browserVersion", "137.0");
         Configuration.baseUrl = System.getProperty("base","https://hostkey.ru");
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 15000;
