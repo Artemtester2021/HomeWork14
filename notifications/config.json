@@ -1,12 +1,12 @@
 {
   "base": {
-    "project": "some project name",
-    "environment": "some env",
-    "comment": "some comment",
-    "reportLink": "https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ12/29/",
+    "project": "${JOB_NAME}",
+    "environment": "JUnit",
+    "comment": "Тестирование сайта https://hostkey.ru/",
+    "reportLink": "${BUILD_URL}",
     "language": "ru",
     "messenger": "telegram",
-    "allureFolder": "build/allure-report/",
+    "allureFolder": "allure-report",
     "enableChart": true
   },
   "telegram": {
