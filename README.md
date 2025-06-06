@@ -59,7 +59,7 @@ gradle clean demoqa_test
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="media/screenshots/allure.png">
+<img title="Allure Overview" src="media/screenshots/Allure.png">
 </p>
 
 
