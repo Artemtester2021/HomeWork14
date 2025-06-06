@@ -51,7 +51,7 @@ gradle clean demoqa_test
 
 Для запуска сборки необходимо перейти в раздел <code>Build with Parameters</code> и нажать кнопку <code>Build</code>.
 <p align="center">
-<img title="Jenkins Build" src="media/screens/jenkins.png">
+<img title="Jenkins Build" src="media/screenshots/jenkins.png">
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клиике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
@@ -66,7 +66,7 @@ gradle clean demoqa_test
 ### Результат выполнения автотеста
 
 <p align="center">
-<img title="Test Results in Alure TestOps" src="media/screens/allurResults.png">
+<img title="Test Results in Alure TestOps" src="media/screenshots/allurResults.png">
 </p>
 
 
@@ -76,12 +76,12 @@ gradle clean demoqa_test
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screens/Bot.png">
+<img width="70%" title="Telegram Notifications" src="media/screenshots/Bot.png">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 <p align="center">
-  <img title="Selenoid Video" src="media/screens/Video.gif">
+  <img title="Selenoid Video" src="media/screenshots/Video.gif">
 </p>
