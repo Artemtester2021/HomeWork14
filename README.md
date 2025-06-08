@@ -17,17 +17,17 @@
 ## :computer: Используемый стек
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg"><a href="https://www.jetbrains.com/idea/" target="_blank">
-<img width="6%" title="Java" src="media/logo/Java.svg">
-<img width="6%" title="Selenide" src="media/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="media/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/logo/Telegram.svg">
-<img width="5%" title="Jira" src="media/logo/Jira.svg">
+  <a href="https://www.jetbrains.com/idea/" target="_blank"><img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg"></a>
+  <a href="https://www.java.com/" target="_blank"><img width="6%" title="Java" src="media/logo/Java.svg"></a>
+  <a href="https://selenide.org/" target="_blank"><img width="6%" title="Selenide" src="media/logo/Selenide.svg"></a>
+  <a href="https://aerokube.com/selenoid/" target="_blank"><img width="6%" title="Selenoid" src="media/logo/Selenoid.svg"></a>
+  <a href="https://github.com/allure-framework/allure2" target="_blank"><img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg"></a>
+  <a href="https://gradle.org/" target="_blank"><img width="6%" title="Gradle" src="media/logo/Gradle.svg"></a>
+  <a href="https://junit.org/junit5/" target="_blank"><img width="6%" title="JUnit5" src="media/logo/JUnit5.svg"></a>
+  <a href="https://github.com/" target="_blank"><img width="6%" title="GitHub" src="media/logo/GitHub.svg"></a>
+  <a href="https://www.jenkins.io/" target="_blank"><img width="6%" title="Jenkins" src="media/logo/Jenkins.svg"></a>
+  <a href="https://telegram.org/" target="_blank"><img width="6%" title="Telegram" src="media/logo/Telegram.svg"></a>
+  <a href="https://www.atlassian.com/software/jira" target="_blank"><img width="5%" title="Jira" src="media/logo/Jira.svg"></a>
 </p>
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
