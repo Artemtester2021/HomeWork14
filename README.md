@@ -57,11 +57,11 @@ gradle clean demoqa_test
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клиике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
-## <a href="https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/" target="_blank"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="media/screenshots/Allure.png">
+<a href="https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/" target="_blank"><img title="Allure Overview" src="media/screenshots/Allure.png">
 </p>
 
 
