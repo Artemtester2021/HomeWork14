@@ -1,7 +1,7 @@
 # Проект по автоматизации тестовых сценариев для сайта [hostkey](https://hostkey.ru/)
 <p align="center">
   <a href="https://hostkey.ru/" target="_blank">
-    <img src="media/screenshots/logo.png" width="200" alt="hostkey Logo">
+    <img src="media/screenshots/logo.svg" width="200" alt="hostkey Logo">
   </a>
 </p>
 ## :scroll: Содержание:
