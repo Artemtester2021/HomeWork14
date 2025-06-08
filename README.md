@@ -27,7 +27,6 @@
   <a href="https://github.com/" target="_blank"><img width="6%" title="GitHub" src="media/logo/GitHub.svg"></a>
   <a href="https://www.jenkins.io/" target="_blank"><img width="6%" title="Jenkins" src="media/logo/Jenkins.svg"></a>
   <a href="https://telegram.org/" target="_blank"><img width="6%" title="Telegram" src="media/logo/Telegram.svg"></a>
-  <a href="https://www.atlassian.com/software/jira" target="_blank"><img width="5%" title="Jira" src="media/logo/Jira.svg"></a>
 </p>
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
