@@ -49,7 +49,7 @@ gradle clean demoqa_test
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> Сборка в Jenkins
+## [<img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> Сборка в Jenkins](https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/)
 
 Для запуска сборки необходимо перейти в раздел <code>Build with Parameters</code> и нажать кнопку <code>Build</code>.
 <p align="center">
@@ -57,18 +57,18 @@ gradle clean demoqa_test
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клиике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
+## [<img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета](https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/6/allure/)
 ### Overview
 
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/" target="_blank"><img title="Allure Overview" src="media/screenshots/Allure.png">
+<a <img title="Allure Overview" src="media/screenshots/Allure.png">
 </p>
 
 
 ### Результат выполнения автотеста
 
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/qa.guru_grup_35_ArtemZ14/6/allure/" target="_blank"><img title="Test Results in Alure TestOps" src="media/screenshots/allurResults.png">
+<img title="Test Results in Alure TestOps" src="media/screenshots/allurResults.png">
 </p>
 
 
